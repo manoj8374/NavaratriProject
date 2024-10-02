@@ -1,0 +1,17 @@
+.slick-slider{
+    width: 55vw !important;
+    margin: auto !important;
+
+    @media (max-width: 768px) {
+        width: 60vw !important;
+        margin: auto !important;
+    }
+}
+
+.backgroundColorContainer{
+    background-color: #121212;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
